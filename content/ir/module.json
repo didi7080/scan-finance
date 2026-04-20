@@ -1,0 +1,33 @@
+{
+  "module_id": "ir-011",
+  "title": "Impôt sur le Revenu : Le Guide Expert",
+  "ebook": {
+    "chapters": [
+      { "id": 1, "title": "Comprendre les Tranches", "content": "Seul l'euro au-dessus du seuil est taxé au taux supérieur. Changer de tranche ne réduit jamais votre net." },
+      { "id": 2, "title": "Le Quotient Familial", "content": "1 part, 1,5 part, 2 parts. L'impact réel des enfants et du mariage sur votre taux." },
+      { "id": 3, "title": "Frais Réels vs Abattement 10%", "content": "Le calcul exact des kilomètres parcourus pour réduire ses impôts de 1000€." },
+      { "id": 4, "title": "Crédits vs Réductions", "content": "Le crédit peut vous être remboursé par chèque. La réduction non." },
+      { "id": 5, "title": "L'Emploi à Domicile", "content": "Ménage, babysitting, jardinage. L'État paye 50% de la facture." },
+      { "id": 6, "title": "Les Dons aux Associations", "content": "75% ou 66% de réduction. Donner 100€ ne vous coûte que 25€." },
+      { "id": 7, "title": "Ajuster son Taux Source", "content": "Comment éviter de faire une avance de trésorerie à l'État en gérant son taux en ligne." },
+      { "id": 8, "title": "La Case 7DB", "content": "La case magique des services à la personne." },
+      { "id": 9, "title": "Calendrier de la Déclaration", "content": "Avril, Mai, Juin. Ne rater aucune date sous peine de majoration." },
+      { "id": 10, "title": "Optimisation de Fin d'Année", "content": "Que faire avant le 31 décembre pour réduire l'impôt de l'an prochain." }
+    ]
+  },
+  "quiz": [
+    { "q": "Gagner plus peut-il réduire mon salaire net après impôts ?", "options": ["Oui", "Non, c'est impossible"], "answer": 1 },
+    { "q": "À quel pourcentage sont remboursés les dons aux 'Colos du Coeur' ?", "options": ["50%", "75%", "100%"], "answer": 1 },
+    { "q": "Quelle case remplir pour déclarer ses frais kilométriques ?", "options": ["1AJ", "1AK (Frais réels)", "7DB"], "answer": 1 }
+  ],
+  "slides": [
+    { "title": "Zéro Mythe", "content": "Gagner plus = Gagner plus. Les tranches sont progressives." },
+    { "title": "10% ou Réels ?", "content": "Comparez vos kilomètres avec l'abattement automatique." },
+    { "title": "Crédit d'Impôt", "content": "L'État vous doit peut-être de l'argent. Réclamez-le." },
+    { "title": "Ajustez vite", "content": "Mariage ? Naissance ? Modifiez votre taux en 2 minutes sur impots.gouv." },
+    { "title": "Faites du bien", "content": "Les dons coûtent 4x moins cher que leur valeur faciale." }
+  ],
+  "ux": { "features": ["Tax_Bracket_Visualizer", "Mileage_Cost_Calculator"], "gamification": "Badge 'Déclarateur Agile' pour le sans-faute au Quiz" },
+  "monetization": { "features": ["simulateur_tranches", "checklist_cases"], "free": "Le fonctionnement des tranches", "premium": "Accès à la liste des cases fiscales à ne pas rater" },
+  "marketing": { "hook": "Reprenez le contrôle sur votre déclaration d'impôts.", "promise": "Découvrez comment réduire légalement votre impôt de 300€ à 1500€ par an.", "transformation": "De l'imposable passif à l'optimisateur averti." }
+}
