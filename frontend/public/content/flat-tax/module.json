@@ -1,0 +1,33 @@
+{
+  "module_id": "flat-tax-013",
+  "title": "Flat Tax vs Barème : L'arbitrage Gagnant",
+  "ebook": {
+    "chapters": [
+      { "id": 1, "title": "C'est quoi la Flat Tax (PFU) ?", "content": "Un taux unique de 30% sur tous vos gains financiers (Actions, Crypto, Intérêts)." },
+      { "id": 2, "title": "La Décomposition du PFU", "content": "12,8% d'impôt sur le revenu + 17,2% de prélèvements sociaux." },
+      { "id": 3, "title": "L'Option au Barème", "content": "Vous pouvez refuser la Flat Tax et choisir d'être taxé selon votre tranche (0%, 11%, etc.)." },
+      { "id": 4, "title": "Qui gagne au Barème ?", "content": "Les tranches à 0% ou 11%. Vous payez moins d'impôts sur vos dividendes." },
+      { "id": 5, "title": "L'Abattement de 40% sur Dividendes", "content": "Uniquement disponible si vous choisissez l'option au Barème." },
+      { "id": 6, "title": "CSG Déductible", "content": "Une partie de la CSG est déductible uniquement au Barème." },
+      { "id": 7, "title": "La Case 2OP", "content": "C'est la case à cocher sur sa déclaration pour choisir le barème. Ne l'oubliez pas !" },
+      { "id": 8, "title": "Le Match : 1 000€ de gains à 11% de tranche", "content": "Comparaison chiffrée. Le Barème gagne souvent." },
+      { "id": 9, "title": "Le Match : 1 000€ de gains à 30% de tranche", "content": "La Flat Tax est la plus rentable." },
+      { "id": 10, "title": "Crypto-actifs et Flat Tax", "content": "Les règles spécifiques pour vos gains en Bitcoin." }
+    ]
+  },
+  "quiz": [
+    { "q": "Quel est le taux de la Flat Tax (PFU) ?", "options": ["20%", "30%", "45%"], "answer": 1 },
+    { "q": "Quelle case faut-il cocher pour opter pour le barème ?", "options": ["2OP", "7DB", "1AJ"], "answer": 0 },
+    { "q": "Pour qui la Flat Tax est-elle la plus avantageuse ?", "options": ["Tranches à 0% ou 11%", "Tranches à 30% ou plus", "Pour tout le monde"], "answer": 1 }
+  ],
+  "slides": [
+    { "title": "Le Choix du Taux", "content": "PFU ou Barème ? Scan Finance vous aide à trancher." },
+    { "title": "30% Partout", "content": "C'est la règle par défaut pour les revenus du capital." },
+    { "title": "L'Option 2OP", "content": "Un seul clic peut vous faire économiser 100€ d'impôts." },
+    { "title": "Dividendes", "content": "Profitez de l'abattement de 40% si votre tranche est basse." },
+    { "title": "Arbitrez bien", "content": "Vérifiez chaque année ce qui est le plus rentable pour vous." }
+  ],
+  "ux": { "features": ["Flat_Tax_vs_Income_Tax_Simulator", "Case_2OP_Reminder"], "gamification": "Badge 'Arbitre de Génie' pour la simulation réussie" },
+  "monetization": { "free": "La définition de la Flat Tax", "premium": "Accès au calculateur d'arbitrage 2OP précis" },
+  "marketing": { "hook": "Arrêtez de payer 30% d'impôts par défaut sur vos investissements.", "promise": "Comment réduire votre imposition boursière en cochant une seule case.", "transformation": "De l'imposable à 30% au stratège fiscal." }
+}
