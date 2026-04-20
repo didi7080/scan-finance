@@ -1,0 +1,33 @@
+{
+  "module_id": "sci-020",
+  "title": "La SCI : Société Civile Immobilière",
+  "ebook": {
+    "chapters": [
+      { "id": 1, "title": "C'est quoi une SCI ?", "content": "Une société pour acheter et gérer des biens immobiliers à plusieurs." },
+      { "id": 2, "title": "SCI Familiale", "content": "Transmettre son patrimoine en évitant l'indivision." },
+      { "id": 3, "title": "SCI à l'IR (Translucide)", "content": "Imposé sur vos revenus fonciers personnels." },
+      { "id": 4, "title": "SCI à l'IS (Impôt Société)", "content": "Le secret des gros investisseurs : l'amortissement comptable." },
+      { "id": 5, "title": "La Donation de Parts", "content": "Transmettre l'immobilier à ses enfants avec 0€ d'impôts grâce aux abattements." },
+      { "id": 6, "title": "Éviter l'Indivision", "content": "Pourquoi la SCI est plus solide qu'un achat en commun direct." },
+      { "id": 7, "title": "Les Frais de Création", "content": "Notaire, Greffe, Statuts. Comptez 1 000€ à 2 000€." },
+      { "id": 8, "title": "Comptabilité de la SCI", "content": "Les obligations déclaratives annuelles (2072 ou 2065)." },
+      { "id": 9, "title": "Le Siège Social", "content": "Où domicilier sa société immobilière ?" },
+      { "id": 10, "title": "La SCI de Résidence Principale", "content": "Une fausse bonne idée ? Analyse des avantages et inconvénients." }
+    ]
+  },
+  "quiz": [
+    { "q": "Peut-on être seul dans une SCI ?", "options": ["Oui", "Non, il faut être au moins 2"], "answer": 1 },
+    { "q": "Quelle SCI permet l'amortissement ?", "options": ["SCI à l'IR", "SCI à l'IS", "Toutes les SCI"], "answer": 1 },
+    { "q": "L'indivision est-elle plus souple que la SCI ?", "options": ["Oui", "Non, c'est souvent un piège en cas de désaccord"], "answer": 1 }
+  ],
+  "slides": [
+    { "title": "L'Union fait la force", "content": "Achetez à plusieurs, gérez avec des statuts clairs." },
+    { "title": "Transmettez !", "content": "Donnez des parts sociales au lieu de donner des murs." },
+    { "title": "IS ou IR ?", "content": "L'IS pour accumuler, l'IR pour le cash immédiat." },
+    { "title": "Zéro Indivision", "content": "Protégez-vous des blocages familiaux." },
+    { "title": "Projet de Vie", "content": "La SCI est un outil de long terme, pas pour un seul achat." }
+  ],
+  "ux": { "features": ["SCI_Tax_Simulator_IS_vs_IR", "Gifting_Shares_Calculator"], "gamification": "Badge 'Bâtisseur de Société' pour le quiz final" },
+  "monetization": { "free": "Le concept de SCI Familiale", "premium": "Accès au guide 'Statuts de SCI' types" },
+  "marketing": { "hook": "Bâtissez votre empire immobilier familial.", "promise": "Comment la SCI protège et transmet votre patrimoine sans impôts.", "transformation": "De l'acheteur individuel au gérant de patrimoine." }
+}
