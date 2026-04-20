@@ -1,0 +1,33 @@
+{
+  "module_id": "assurance-vie-009",
+  "title": "Assurance Vie Premium : L'arme fatale",
+  "ebook": {
+    "chapters": [
+      { "id": 1, "title": "Pourquoi 'Assurance Vie' ?", "content": "C'est un couteau suisse : épargne, investissement, et transmission." },
+      { "id": 2, "title": "Le Fonds Euros", "content": "La partie sécurisée (capital garanti) qui bat le Livret A." },
+      { "id": 3, "title": "Les Unités de Compte (UC)", "content": "La partie 'Bourse' (ETF, SCPI) pour faire grimper le rendement." },
+      { "id": 4, "title": "Fiscalité des 8 ans", "content": "Abattement géant de 4 600€ de gains par an (9 200€ en couple)." },
+      { "id": 5, "title": "Frais de versement 0%", "content": "Ne payez jamais pour mettre votre argent. Fuyez les banques classiques." },
+      { "id": 6, "title": "La clause bénéficiaire", "content": "Transmettre hors succession jusqu'à 152 500€ par bénéficiaire." },
+      { "id": 7, "title": "Gestion Pilotée vs Libre", "content": "Laissez faire un expert ou prenez les commandes." },
+      { "id": 8, "title": "L'Arbitrage", "content": "Passer du Fonds Euros vers les UC ou l'inverse, sans impôt." },
+      { "id": 9, "title": "Ouvrir pour 'prendre date'", "content": "Même avec 50€, ouvrez-en une aujourd'hui pour le futur." },
+      { "id": 10, "title": "La Liste Noire des Banques", "content": "Trop de frais, pas d'ETF, fonds euros poussifs. Scan Finance vous dit lesquelles." }
+    ]
+  },
+  "quiz": [
+    { "q": "L'argent est-il bloqué 8 ans ?", "options": ["Oui", "Non, l'argent est toujours disponible"], "answer": 1 },
+    { "q": "Qu'est-ce qu'un versement à 0% ?", "options": ["Un don gratuit", "Zéro commission prélevée par la banque quand vous investissez", "Un livret A"], "answer": 1 },
+    { "q": "Quelle est la limite de transmission hors impôt par bénéficiaire ?", "options": ["10 000€", "152 500€", "Plafond illimité"], "answer": 1 }
+  ],
+  "slides": [
+    { "title": "Le Couteau Suisse", "content": "Épargnez, investissez, transmettez. Tout dans le même contrat." },
+    { "title": "8 ans magiques", "content": "C'est l'âge où votre assurance vie devient une machine à rente gratuite." },
+    { "title": "Zéro Frais", "content": "Un contrat moderne = 0€ de frais de versement. Toujours." },
+    { "title": "Transmettre", "content": "Protégez vos proches avec une fiscalité imbattable." },
+    { "title": "Prenez date", "content": "Le temps est votre meilleur allié fiscal." }
+  ],
+  "ux": { "features": ["Fiscal_Maturity_Countdown", "Fee_Analyzer"], "gamification": "Badge 'Planificateur' après ouverture simulée" },
+  "monetization": { "free": "Fonds Euros vs Unités de Compte", "premium": "Liste des 3 meilleurs contrats sans frais sur versement" },
+  "marketing": { "hook": "Ne laissez plus l'État et les banques grignoter votre futur.", "promise": "Le guide pour ne plus jamais payer d'impôt sur vos gains après 8 ans.", "transformation": "De l'épargnant taxé au rentier fiscalement serein." }
+}

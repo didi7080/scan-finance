@@ -1,0 +1,33 @@
+{
+  "module_id": "credit-immo-017",
+  "title": "Le Crédit Immobilier : Négocier comme un Pro",
+  "ebook": {
+    "chapters": [
+      { "id": 1, "title": "C'est quoi un Taux ?", "content": "Taux nominal vs TAEG (le coût réel tout compris)." },
+      { "id": 2, "title": "L'Assurance Emprunteur (Loi Lemoine)", "content": "Vous pouvez changer d'assurance à TOUT moment. Gagnez jusqu'à 5 000€ en 15 minutes." },
+      { "id": 3, "title": "L'Apport Personnel", "content": "L'importance des 10% (Frais de notaire + Garantie)." },
+      { "id": 4, "title": "Le Taux d'Endettement (35%)", "content": "La limite de fer imposée par le HCSF. Comment la banque calcule vos revenus." },
+      { "id": 5, "title": "Courtier vs Banque Directe", "content": "Qui a les meilleurs taux en 2026 ?" },
+      { "id": 6, "title": "L'Hypothèque vs La Caution (Crédit Logement)", "content": "Les garanties que demande la banque pour vous prêter." },
+      { "id": 7, "title": "Rachat de Crédit", "content": "Quand renégocier si les taux baissent ? La règle du 1% de différence." },
+      { "id": 8, "title": "Prêt In Fine vs Amortissable", "content": "Le secret des investisseurs locatifs." },
+      { "id": 9, "title": "Les Frais de Dossier", "content": "Comment les faire tomber à zéro en fin de négociation." },
+      { "id": 10, "title": "Préparer son dossier", "content": "3 relevés de compte sans aucun découvert. Le 'No-Spend Month' avant l'achat." }
+    ]
+  },
+  "quiz": [
+    { "q": "Que signifie TAEG ?", "options": ["Taux Annuel Énorme et Gros", "Taux Annuel Effectif Global", "Taux d'Apport et Garantie"], "answer": 1 },
+    { "q": "Quelle loi permet de changer d'assurance emprunteur à tout moment ?", "options": ["Loi Pinel", "Loi Lemoine", "Loi Macron"], "answer": 1 },
+    { "q": "Quel est le taux d'endettement maximum autorisé ?", "options": ["35%", "50%", "10%"], "answer": 0 }
+  ],
+  "slides": [
+    { "title": "Le Taux n'est pas tout", "content": "Regardez le TAEG. C'est le prix réel du crédit." },
+    { "title": "Assurance : Changez !", "content": "Ne prenez pas l'assurance de la banque. C'est 2x trop cher." },
+    { "title": "Profil Bancaire", "content": "Prouvez à la banque que vous savez épargner." },
+    { "title": "Négocier les frais", "content": "Dossier, IRA (Indemnités de remboursement anticipé). Tout se discute." },
+    { "title": "Vitesse", "content": "Dossier complet = Crédit validé en 15 jours." }
+  ],
+  "ux": { "features": ["Mortgage_Capacity_Calculator", "Loan_Amortization_Schedule"], "gamification": "Badge 'Négociateur de Taux' pour la simulation" },
+  "monetization": { "free": "Le taux d'endettement à 35% expliqué", "premium": "Accès au calculateur d'économie d'assurance emprunteur" },
+  "marketing": { "hook": "La banque veut vos intérêts, reprenez-les.", "promise": "Le guide pour gagner 0,5% sur votre taux de crédit immo.", "transformation": "De l'emprunteur stressé au client que les banques s'arrachent." }
+}

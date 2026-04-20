@@ -1,0 +1,33 @@
+{
+  "module_id": "dca-007",
+  "title": "La Stratégie DCA : Automatiser sa Richesse",
+  "ebook": {
+    "chapters": [
+      { "id": 1, "title": "C'est quoi le DCA ?", "content": "Dollar Cost Averaging : investir une somme fixe à intervalle régulier, peu importe le prix." },
+      { "id": 2, "title": "Vaincre la peur du Krach", "content": "En DCA, quand le marché baisse, vous achetez plus de parts. C'est mathématiquement avantageux." },
+      { "id": 3, "title": "DCA vs Lump Sum", "content": "Investir tout d'un coup (Lump Sum) est statistiquement gagnant 2 fois sur 3, mais le DCA est 10x meilleur psychologiquement." },
+      { "id": 4, "title": "L'automatisation : votre super-pouvoir", "content": "Supprimez la tentation. Programmez un virement automatique le jour de votre paye." },
+      { "id": 5, "title": "Lissage du prix d'achat", "content": "Vous achetez cher, vous achetez moins cher. Votre prix moyen s'équilibre." },
+      { "id": 6, "title": "La discipline du moine", "content": "Ne regardez pas les infos. Le DCA fonctionne si on ne s'arrête jamais." },
+      { "id": 7, "title": "DCA sur ETF : le combo gagnant", "content": "L'alliance parfaite : diversification mondiale + investissement régulier." },
+      { "id": 8, "title": "Que faire quand les prix montent ?", "content": "Continuez. N'essayez pas de deviner le sommet." },
+      { "id": 9, "title": "Que faire quand les prix chutent ?", "content": "Réjouissez-vous, les actions sont en soldes." },
+      { "id": 10, "title": "Calculateur de projection DCA", "content": "200€/mois à 7% sur 25 ans = 150 000€ dont 90 000€ d'intérêts." }
+    ]
+  },
+  "quiz": [
+    { "q": "Que signifie DCA ?", "options": ["Direct Cash Access", "Dollar Cost Averaging", "Daily Capital Asset"], "answer": 1 },
+    { "q": "Quel est l'avantage principal du DCA ?", "options": ["Gagner à tous les coups", "Lisser son prix d'achat et réduire le stress", "Payer moins de frais"], "answer": 1 },
+    { "q": "Quand faut-il arrêter son DCA ?", "options": ["Quand la bourse baisse", "Jamais, sauf quand on a atteint son objectif de vie", "Quand on a besoin d'argent pour des vacances"], "answer": 1 }
+  ],
+  "slides": [
+    { "title": "DCA = Sérénité", "content": "Oubliez la météo boursière. Investissez par tous les temps." },
+    { "title": "Achetez les soldes", "content": "Baisse du marché = Plus d'actions pour le même prix." },
+    { "title": "Zéro émotion", "content": "L'automate n'a pas peur. Soyez l'automate." },
+    { "title": "Petit à petit", "content": "Il vaut mieux 50€/mois aujourd'hui que 500€/mois dans 10 ans." },
+    { "title": "Le secret : Tenir", "content": "La richesse est une course d'endurance, pas un sprint." }
+  ],
+  "ux": { "features": ["DCA_Tracker", "Stress_Meter_Simulator"], "gamification": "Badge 'Régularité d'Acier' après 6 mois de virement" },
+  "monetization": { "free": "Concepts de base + Premier Quiz", "premium": "Accès au calculateur de projection et templates de virements automatiques" },
+  "marketing": { "hook": "Automatisez votre richesse et dormez sur vos deux oreilles.", "promise": "Devenez investisseur avec 50€/mois sans jamais regarder la bourse.", "transformation": "De l'épargnant inquiet à l'investisseur serein." }
+}

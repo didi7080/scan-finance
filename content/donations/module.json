@@ -1,0 +1,33 @@
+{
+  "module_id": "succession-014",
+  "title": "Donations & Succession : Transmettre Sans Frais",
+  "ebook": {
+    "chapters": [
+      { "id": 1, "title": "L'Abattement des 100 000€", "content": "Chaque parent peut donner 100 000€ par enfant tous les 15 ans sans aucun impôt." },
+      { "id": 2, "title": "Le Don familial de sommes d'argent", "content": "Le 'Don Sarkozy' : 31 865€ supplémentaires exonérés sous conditions d'âge." },
+      { "id": 3, "title": "Les Grands-Parents", "content": "Abattement de 31 865€ par petit-enfant tous les 15 ans." },
+      { "id": 4, "title": "L'Assurance Vie : Le Hors-Succession", "content": "152 500€ par bénéficiaire transmis à 0% d'impôt (versements avant 70 ans)." },
+      { "id": 5, "title": "Le Démembrement de Propriété", "content": "Donner la nue-propriété et garder l'usufruit pour réduire la facture fiscale." },
+      { "id": 6, "title": "Présent d'Usage vs Donation", "content": "Ce que vous pouvez donner pour Noël ou un anniversaire sans le déclarer." },
+      { "id": 7, "title": "Le PACS et le Mariage", "content": "Exonération totale entre conjoints en cas de décès." },
+      { "id": 8, "title": "Anticiper pour économiser", "content": "Pourquoi donner à 50 ans coûte moins cher qu'à 80 ans." },
+      { "id": 9, "title": "Les Frais de Notaire", "content": "Comprendre les tarifs réglementés pour une donation." },
+      { "id": 10, "title": "La Donation-Partage", "content": "Le meilleur outil pour figer les valeurs et éviter les conflits familiaux." }
+    ]
+  },
+  "quiz": [
+    { "q": "Quel montant un parent peut-il donner à un enfant tous les 15 ans sans impôts ?", "options": ["31 865€", "100 000€", "50 000€"], "answer": 1 },
+    { "q": "L'Assurance Vie rentre-t-elle dans la succession classique ?", "options": ["Oui", "Non, elle bénéficie d'un régime spécifique avantageux"], "answer": 1 },
+    { "q": "À quel âge est-il conseillé de faire des versements sur son Assurance Vie pour la transmission ?", "options": ["Avant 70 ans", "Après 80 ans", "N'importe quand"], "answer": 0 }
+  ],
+  "slides": [
+    { "title": "La Règle des 15 ans", "content": "Le compteur se remet à zéro tous les 15 ans. Donnez tôt !" },
+    { "title": "Famille Protégée", "content": "Utilisez les abattements cumulés (Parents + Grands-parents)." },
+    { "title": "Don Argent", "content": "31 865€ en plus des 100 000€ si vous avez moins de 80 ans." },
+    { "title": "Démembrement", "content": "Donnez les murs, gardez les loyers. Une stratégie gagnante." },
+    { "title": "Pas de Panique", "content": "90% des Français ne paient pas de droits de succession grâce aux abattements." }
+  ],
+  "ux": { "features": ["Succession_Tax_Calculator", "Gifting_Timeline_Planner"], "gamification": "Badge 'Protecteur de Lignée' pour le parcours terminé" },
+  "monetization": { "free": "L'abattement des 100 000€ expliqué", "premium": "Accès au calculateur de droits de succession complexe" },
+  "marketing": { "hook": "Ne laissez pas l'État devenir votre premier héritier.", "promise": "Comment transmettre 250 000€ à vos enfants avec 0€ d'impôts.", "transformation": "Du parent inquiet au bâtisseur de dynastie financière." }
+}
