@@ -1,0 +1,33 @@
+{
+  "module_id": "per-012",
+  "title": "Le PER : Investir avec l'argent du Fisc",
+  "ebook": {
+    "chapters": [
+      { "id": 1, "title": "C'est quoi un PER ?", "content": "Un compte bloqué jusqu'à la retraite qui permet de déduire ses versements de son revenu imposable." },
+      { "id": 2, "title": "Le Cadeau à l'Entrée", "content": "Si vous êtes dans la tranche à 30%, verser 1 000€ vous fait économiser 300€ d'impôts." },
+      { "id": 3, "title": "Sortie en Capital ou en Rente", "content": "Récupérer un gros chèque ou un virement mensuel à vie." },
+      { "id": 4, "title": "Déblocage Anticipé : Achat Résidence Principale", "content": "Le seul cas (hors accidents de la vie) où vous pouvez récupérer l'argent avant 64 ans." },
+      { "id": 5, "title": "PER vs Assurance Vie", "content": "Le PER gagne à l'entrée, l'Assurance Vie gagne à la sortie. Le match." },
+      { "id": 6, "title": "Plafonds de Déduction", "content": "Regardez votre avis d'imposition pour connaître votre 'disponible fiscal'." },
+      { "id": 7, "title": "Les Frais du PER", "content": "Attention aux banques ! Frais d'entrée, frais d'arbitrage. Visez les PER en ligne." },
+      { "id": 8, "title": "Transférer son vieux PERP ou Madelin", "content": "Modernisez vos vieux contrats pour baisser les frais." },
+      { "id": 9, "title": "Pour qui est-ce rentable ?", "content": "Top pour les tranches à 30%, 41% et 45%. Moins utile à 11%." },
+      { "id": 10, "title": "La Stratégie 'Rebond'", "content": "Réinvestir l'économie d'impôt générée par le PER sur son PEA." }
+    ]
+  },
+  "quiz": [
+    { "q": "Peut-on débloquer son PER pour acheter sa maison ?", "options": ["Oui", "Non, jamais avant la retraite"], "answer": 0 },
+    { "q": "Combien économise-t-on d'impôts pour 1000€ versés à 30% de tranche ?", "options": ["100€", "300€", "0€"], "answer": 1 },
+    { "q": "L'argent versé sur un PER est-il imposable à la sortie ?", "options": ["Oui", "Non, c'est totalement défiscalisé"], "answer": 0 }
+  ],
+  "slides": [
+    { "title": "Le Levier Fiscal", "content": "Investissez aujourd'hui l'argent que vous auriez dû donner au fisc." },
+    { "title": "Achat Immo", "content": "Utilisez le PER comme un apport boosté pour votre résidence principale." },
+    { "title": "Tranches Hautes", "content": "Plus vous payez d'impôts, plus le PER est puissant." },
+    { "title": "Frais Bas", "content": "Un bon PER = 0% de frais sur versement." },
+    { "title": "Retraite Sereine", "content": "Complétez votre pension d'État avec vos propres investissements." }
+  ],
+  "ux": { "features": ["PER_Tax_Saving_Simulator", "Retirement_Gap_Calculator"], "gamification": "Badge 'Futur Rentier' pour la première simulation" },
+  "monetization": { "free": "Le concept de déduction fiscale", "premium": "Accès au comparatif des 3 meilleurs PER du marché" },
+  "marketing": { "hook": "Faites payer vos investissements par l'État.", "promise": "Réduisez vos impôts immédiatement tout en préparant votre retraite.", "transformation": "De l'imposable frustré au bâtisseur de patrimoine optimisé." }
+}
