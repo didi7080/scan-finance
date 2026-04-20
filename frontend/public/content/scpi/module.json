@@ -1,0 +1,33 @@
+{
+  "module_id": "scpi-019",
+  "title": "Les SCPI : L'Immo sans les Ennuis",
+  "ebook": {
+    "chapters": [
+      { "id": 1, "title": "C'est quoi une SCPI ?", "content": "Une Société Civile de Placement Immobilier. Vous achetez des parts d'un parc immobilier (Bureaux, Entrepôts, Santé)." },
+      { "id": 2, "title": "Le Rendement (TD)", "content": "Le Taux de Distribution moyen est de 4% à 5,5% par an." },
+      { "id": 3, "title": "0 Gestion", "content": "Pas de locataire à gérer, pas de travaux. La société de gestion s'occupe de tout." },
+      { "id": 4, "title": "Accessibilité", "content": "Devenez propriétaire dès 1 000€ de mise." },
+      { "id": 5, "title": "La Diversification", "content": "Votre argent est réparti sur des dizaines d'immeubles et des centaines de locataires." },
+      { "id": 6, "title": "Le Crédit SCPI", "content": "L'effet de levier sur la pierre papier. La banque finance votre achat." },
+      { "id": 7, "title": "La Fiscalité des SCPI", "content": "Attention ! Imposé comme des revenus fonciers classiques (Tranche + 17,2%)." },
+      { "id": 8, "title": "SCPI Européennes", "content": "Investir en Allemagne ou en Espagne pour échapper aux 17,2% de prélèvements sociaux." },
+      { "id": 9, "title": "Les Frais de Souscription", "content": "Souvent 8% à 10%. On ne gagne de l'argent qu'à long terme (8-10 ans)." },
+      { "id": 10, "title": "Comment bien choisir ?", "content": "Analyse du report à nouveau (RAN), du taux d'occupation financier (TOF) et de la capitalisation." }
+    ]
+  },
+  "quiz": [
+    { "q": "Doit-on gérer les travaux en SCPI ?", "options": ["Oui", "Non, la société de gestion s'occupe de tout"], "answer": 1 },
+    { "q": "Quel est le rendement moyen d'une bonne SCPI ?", "options": ["10-15%", "4,5-5,5%", "0,1%"], "answer": 1 },
+    { "q": "À partir de quel montant peut-on investir en SCPI ?", "options": ["1 000 000€", "Dès quelques centaines d'euros", "10 000€ minimum"], "answer": 1 }
+  ],
+  "slides": [
+    { "title": "Pierre Papier", "content": "Investissez dans les bureaux et les commerces sans bouger de votre canapé." },
+    { "title": "Tranquillité", "content": "Déléguez la gestion. Recevez vos loyers chaque mois ou trimestre." },
+    { "title": "Crédit", "content": "Faites payer vos parts par les locataires de la SCPI." },
+    { "title": "Europe", "content": "Investissez hors de France pour baisser vos impôts fonciers." },
+    { "title": "Long Terme", "content": "Patience ! Amortissez les frais d'entrée sur 10 ans." }
+  ],
+  "ux": { "features": ["SCPI_Yield_Calculator", "Tax_Optimizer_Abroad"], "gamification": "Badge 'Landoff' pour la première part achetée" },
+  "monetization": { "free": "Le concept de Pierre Papier", "premium": "Accès au TOP 5 des SCPI sans frais d'entrée" },
+  "marketing": { "hook": "Devenez propriétaire sans jamais voir un locataire.", "promise": "Comment l'immobilier peut vous rapporter 5% net sans effort.", "transformation": "De l'épargnant actif au rentier passif." }
+}
