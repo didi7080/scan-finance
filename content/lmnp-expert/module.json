@@ -1,0 +1,33 @@
+{
+  "module_id": "lmnp-018",
+  "title": "LMNP Expert : Louer à 0€ d'Impôt",
+  "ebook": {
+    "chapters": [
+      { "id": 1, "title": "C'est quoi le LMNP ?", "content": "Loueur en Meublé Non Professionnel. Une niche fiscale immobilière puissante." },
+      { "id": 2, "title": "Meublé vs Nu", "content": "Pourquoi le meublé gagne fiscalement face à la location classique." },
+      { "id": 3, "title": "Le Régime Réel : Le Graal", "content": "Comment amortir la valeur de l'appartement pour effacer l'impôt sur les loyers." },
+      { "id": 4, "title": "L'Amortissement", "content": "La magie comptable : votre appartement s'use, l'État vous offre une déduction fictive." },
+      { "id": 5, "title": "Micro-BIC vs Réel", "content": "Le match. Le réel gagne dans 90% des cas si on a un crédit." },
+      { "id": 6, "title": "Le Mobilier Obligatoire", "content": "La liste des 11 éléments pour ne pas être requalifié en location nue." },
+      { "id": 7, "title": "L'Expert-Comptable LMNP", "content": "Indispensable pour le régime réel. Ses honoraires sont déductibles." },
+      { "id": 8, "title": "Le Plafond des 23 000€", "content": "Ne pas dépasser ce montant (ou 50% de vos revenus) pour rester LMNP." },
+      { "id": 9, "title": "La Plus-value à la Revente", "content": "L'amortissement n'est pas réintégré. C'est le plus gros avantage fiscal du LMNP." },
+      { "id": 10, "title": "Déclarer son activité", "content": "Le formulaire P0i. À envoyer dans les 15 jours suivant le début de la location." }
+    ]
+  },
+  "quiz": [
+    { "q": "Peut-on être imposé à 0% sur ses loyers LMNP ?", "options": ["Oui", "Non, l'État prend toujours 30%"], "answer": 0 },
+    { "q": "Combien de meubles sont obligatoires légalement ?", "options": ["5", "11", "25"], "answer": 1 },
+    { "q": "Quelle est la durée moyenne d'amortissement d'un bien ?", "options": ["5 ans", "20 à 30 ans", "100 ans"], "answer": 1 }
+  ],
+  "slides": [
+    { "title": "Zéro Impôt", "content": "Le LMNP au réel est la meilleure niche immobilière en France." },
+    { "title": "Amortissez !", "content": "Déduisez virtuellement 3% du prix d'achat de vos revenus chaque année." },
+    { "title": "Micro ou Réel ?", "content": "Choisissez le réel pour un maximum d'économies." },
+    { "title": "P0i", "content": "Enregistrez-vous vite au greffe pour valider votre statut." },
+    { "title": "Revente", "content": "Gardez vos bénéfices sans payer d'impôt sur l'amortissement passé." }
+  ],
+  "ux": { "features": ["LMNP_Profitability_Calculator", "Furniture_Checklist_Interactive"], "gamification": "Badge 'Rentier Fiscal' pour la checklist meublée finie" },
+  "monetization": { "free": "Le concept d'amortissement expliqué", "premium": "Accès au modèle de bail meublé conforme 2026" },
+  "marketing": { "hook": "Ne donnez plus vos loyers au fisc.", "promise": "Comment générer 1 000€ de loyer avec 0€ d'impôts.", "transformation": "De l'investisseur taxé au loueur meublé optimisé." }
+}
