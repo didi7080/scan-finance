@@ -1,0 +1,8 @@
+{
+  "id": 4,
+  "slug": "module-4-erreurs",
+  "title": "Erreurs financières à éviter",
+  "is_free": false,
+  "ebook": { "chapters": [{ "id": 1, "title": "Timing du marché", "content": "..." }] },
+  "quiz": [{ "q": "Vendre en baisse ?", "options": ["Oui", "Non"], "answer": 1 }]
+}

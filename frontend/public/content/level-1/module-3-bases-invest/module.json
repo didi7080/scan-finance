@@ -1,0 +1,8 @@
+{
+  "id": 3,
+  "slug": "module-3-bases-invest",
+  "title": "Bases de l’investissement",
+  "is_free": false,
+  "ebook": { "chapters": [{ "id": 1, "title": "Pourquoi investir ?", "content": "..." }] },
+  "quiz": [{ "q": "Placement 15% sans risque ?", "options": ["Oui", "Non"], "answer": 1 }]
+}
