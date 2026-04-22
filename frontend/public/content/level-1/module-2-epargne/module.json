@@ -1,0 +1,15 @@
+{
+  "id": 2,
+  "slug": "module-2-epargne",
+  "title": "Comprendre l’épargne",
+  "is_free": true,
+  "ebook": {
+    "chapters": [
+      { "id": 1, "title": "Pourquoi épargner ?", "content": "L'épargne est votre bouclier financier..." },
+      { "id": 2, "title": "Le Matelas de Sécurité", "content": "Le fonds d'urgence. Visez 3 à 6 mois..." }
+    ]
+  },
+  "quiz": [
+    { "q": "Effet de l'inflation ?", "options": ["Augmente valeur", "Réduit pouvoir d'achat"], "answer": 1 }
+  ]
+}

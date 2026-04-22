@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "slug": "module-1-budget",
+  "title": "Gérer son budget efficacement",
+  "is_free": true,
+  "ebook": {
+    "chapters": [
+      { "id": 1, "title": "La Psychologie de la Dépense", "content": "Chapitre 1 : Pourquoi vous dépensez ?..." },
+      { "id": 2, "title": "La Règle d'Or : Se Payer en Premier", "content": "Chapitre 2 : Ne mettez pas de côté ce qu'il reste..." },
+      { "id": 4, "title": "La Méthode 50/30/20", "content": "Chapitre 4 : La structure universelle. 50% Besoins..." }
+    ]
+  },
+  "quiz": [
+    { "q": "Quand faut-il épargner son argent ?", "options": ["À la fin du mois", "Dès la réception du salaire"], "answer": 1 }
+  ]
+}
