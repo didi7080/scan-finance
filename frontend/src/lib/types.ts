@@ -8,14 +8,25 @@ export interface QuizQuestion {
   q: string;
   options: string[];
   answer: number;
+  explanation?: string;
 }
 
 export interface Module {
-  module_id: string;
-  title: string;
+  id: number;
   slug: string;
+  title: string;
+  is_free: boolean;
   chapters: Chapter[];
+  ebook?: {
+    chapters: Chapter[];
+  };
+  slides?: { id: number; text: string }[];
   quiz: QuizQuestion[];
+  affiliation?: {
+    provider: string;
+    text: string;
+    link: string;
+  };
   marketing?: {
     hook?: string;
     promise?: string;
@@ -25,11 +36,8 @@ export interface Module {
 
 export interface Level {
   id: number;
-  name: string;
-  icon: string;
-  description: string;
-  color: string;
-  modules: string[];
+  title: string;
+  modules: { id: number; slug: string; title: string; free: boolean }[];
 }
 
 export interface UserProgress {
@@ -38,49 +46,26 @@ export interface UserProgress {
   xp: number;
   streak: number;
   lastActivity: string;
+  isPremium?: boolean;
 }
 
-export const LEVELS: Level[] = [
-  {
-    id: 1,
-    name: "Fondations",
-    icon: "🏛️",
-    description: "Maîtrisez les bases de la finance personnelle",
-    color: "from-emerald-500 to-emerald-700",
-    modules: ["impots-ir", "pea-vs-cto", "dca", "premier-ordre"],
-  },
-  {
-    id: 2,
-    name: "Investissement",
-    icon: "📈",
-    description: "Stratégies d'investissement et d'allocation",
-    color: "from-blue-500 to-blue-700",
-    modules: ["assurance-vie", "or-actifs-refuges", "ir", "per"],
-  },
-  {
-    id: 3,
-    name: "Fiscalité",
-    icon: "⚖️",
-    description: "Optimisation fiscale et arbitrages",
-    color: "from-purple-500 to-purple-700",
-    modules: ["flat-tax", "niches-fiscales", "donations", "isr"],
-  },
-  {
-    id: 4,
-    name: "Immobilier",
-    icon: "🏠",
-    description: "Stratégies immobilières et crédit",
-    color: "from-amber-500 to-amber-700",
-    modules: ["residence-principale", "credit-immo", "lmnp-expert", "scpi"],
-  },
-  {
-    id: 5,
-    name: "Avancé",
-    icon: "🚀",
-    description: "Indépendance financière et structures",
-    color: "from-rose-500 to-rose-700",
-    modules: ["sci", "independance-financiere", "psychologie-argent"],
-  },
+export interface UserProfile {
+  income: number;
+  expenses: number;
+  assets: number;
+  country: string;
+  emergencyMonths?: number;
+  debt?: number;
+  debtToIncome?: number;
+  investmentDiversification?: number;
+}
+
+export const LEVELS_CONFIG = [
+  { id: 1, title: "Fondations" },
+  { id: 2, title: "Investissement" },
+  { id: 3, title: "Fiscalité" },
+  { id: 4, title: "Immobilier" },
+  { id: 5, title: "Avancé" }
 ];
 
 export const RANKS = [

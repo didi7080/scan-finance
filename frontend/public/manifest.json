@@ -1,0 +1,54 @@
+{
+  "app_name": "Scan Finance Master",
+  "levels": [
+    {
+      "id": 1,
+      "title": "Fondations",
+      "modules": [
+        { "id": 1, "slug": "module-1-budget", "title": "Gérer son budget efficacement", "free": true },
+        { "id": 2, "slug": "module-2-epargne", "title": "Comprendre l’épargne", "free": true },
+        { "id": 3, "slug": "module-3-bases-invest", "title": "Bases de l’investissement", "free": false },
+        { "id": 4, "slug": "module-4-erreurs", "title": "Erreurs financières à éviter", "free": false }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Investissement",
+      "modules": [
+        { "id": 5, "slug": "module-5-etf", "title": "ETF & MSCI World", "free": false },
+        { "id": 6, "slug": "module-6-enveloppes", "title": "PEA vs CTO vs Assurance vie", "free": false },
+        { "id": 7, "slug": "module-7-dca", "title": "DCA (Dollar Cost Averaging)", "free": false },
+        { "id": 8, "slug": "module-8-interets-composes", "title": "Intérêts composés", "free": false }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Fiscalité",
+      "modules": [
+        { "id": 9, "slug": "module-9-impots", "title": "Comprendre les impôts", "free": false },
+        { "id": 10, "slug": "module-10-flat-tax", "title": "Flat tax vs barème", "free": false },
+        { "id": 11, "slug": "module-11-fiscalite-invest", "title": "Fiscalité des investissements", "free": false },
+        { "id": 12, "slug": "module-12-per", "title": "PER", "free": false }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Immobilier",
+      "modules": [
+        { "id": 13, "slug": "module-13-immobilier-bases", "title": "Investir dans l’immobilier", "free": false },
+        { "id": 14, "slug": "module-14-credit-immo", "title": "Crédit immobilier", "free": false },
+        { "id": 15, "slug": "module-15-rentabilite", "title": "Rentabilité", "free": false },
+        { "id": 16, "slug": "module-16-lmnp-sci", "title": "LMNP / SCI", "free": false }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Stratégie Avancée",
+      "modules": [
+        { "id": 17, "slug": "module-17-enrichissement", "title": "Stratégie d’enrichissement", "free": false },
+        { "id": 18, "slug": "module-18-levier-lombard", "title": "Effet de levier (crédit / lombard)", "free": false },
+        { "id": 19, "slug": "module-19-optimisation-globale", "title": "Optimisation globale patrimoine", "free": false }
+      ]
+    }
+  ]
+}
