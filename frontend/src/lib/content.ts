@@ -1,45 +1,26 @@
-import { Module, Chapter, QuizQuestion } from "./types";
-import fs from "fs";
-import path from "path";
+import { Module } from "./types";
 
-const CONTENT_DIR = path.join(process.cwd(), "public", "content");
-
-export function getAllModuleSlugs(): string[] {
-  try {
-    return fs
-      .readdirSync(CONTENT_DIR)
-      .filter((d) =>
-        fs.existsSync(path.join(CONTENT_DIR, d, "module.json"))
-      );
-  } catch {
-    return [];
-  }
+export async function loadManifest() {
+  const res = await fetch("/manifest.json");
+  return res.json();
 }
 
-export function loadModule(slug: string): Module | null {
+export async function loadModule(levelId: number, slug: string): Promise<Module | null> {
   try {
-    const filePath = path.join(CONTENT_DIR, slug, "module.json");
-    const raw = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-
-    const chapters: Chapter[] =
-      raw.ebook?.chapters || raw.chapters || [];
-    const quiz: QuizQuestion[] = raw.quiz || [];
-
-    return {
-      module_id: raw.module_id,
-      title: raw.title,
-      slug,
-      chapters,
-      quiz,
-      marketing: raw.marketing,
-    };
+    const res = await fetch(`/content/level-${levelId}/${slug}/module.json`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    
+    if (data.ebook && data.ebook.chapters) {
+      data.chapters = data.ebook.chapters;
+    }
+    
+    return data;
   } catch {
     return null;
   }
 }
 
-export function loadAllModules(): Module[] {
-  return getAllModuleSlugs()
-    .map(loadModule)
-    .filter((m): m is Module => m !== null);
+export async function loadAllModules(): Promise<Module[]> {
+  return [];
 }
